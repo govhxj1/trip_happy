@@ -1,1 +1,195 @@
-# trip_happy
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>여행 일정표</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .day {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .day-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+
+    .item {
+      margin-bottom: 14px;
+    }
+
+    .item:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .item a {
+      display: inline-block;
+      font-size: 14px;
+      color: #2b6de9;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .item a:active {
+      opacity: 0.6;
+    }
+
+    .note {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #666;
+      background: #f9fafb;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      padding: 0 0 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>싱벙한여행</h1>
+
+    <!-- 금요일 -->
+    <section class="day">
+      <div class="day-title">📅 금요일</div>
+
+      <div class="item">
+        <div class="item-title">▶ 노지캠핑 (별보기 · 불멍)</div>
+        <a href="https://naver.me/FvQPTMsf" target="_blank">
+          https://naver.me/FvQPTMsf
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 주차장 (숙소 근처)</div>
+        <a href="https://naver.me/GgWk0GkH" target="_blank">
+          https://naver.me/GgWk0GkH
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 숙소 (호텔 BOX)</div>
+        <a href="https://naver.me/GbDqj4B6" target="_blank">
+          https://naver.me/GbDqj4B6
+        </a>
+      </div>
+
+      <div class="note">
+        주차만차시 주차장앞 노지유료주차장 이용<br />
+        추울땐 안아주기
+      </div>
+    </section>
+
+    <!-- 토요일 -->
+    <section class="day">
+      <div class="day-title">📅 토요일</div>
+
+      <div class="item">
+        <div class="item-title">▶ 만화카페 (놀숲)</div>
+        <a href="https://naver.me/GwpMkZld" target="_blank">
+          https://naver.me/GwpMkZld
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 연극 〈시그널〉 (아신극장)</div>
+        <a href="https://naver.me/FZ2v5pPN" target="_blank">
+          https://naver.me/FZ2v5pPN
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 저녁 (장원갑칼국수)</div>
+        <a href="https://naver.me/xXwG7IHU" target="_blank">
+          https://naver.me/xXwG7IHU
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 숙소 (유성 스파타워)</div>
+        <a href="https://naver.me/IFgf7aUk" target="_blank">
+          https://naver.me/IFgf7aUk
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 야식 (태평소국밥)</div>
+        <a href="https://naver.me/5jJo8qxJ" target="_blank">
+          https://naver.me/5jJo8qxJ
+        </a>
+      </div>
+
+      <div class="note">
+        공연 시작 최소 15분 전 도착<br />
+        스파숙소 1층 버블.입욕제 구매
+      </div>
+    </section>
+
+    <!-- 일요일 -->
+    <section class="day">
+      <div class="day-title">📅 일요일</div>
+
+      <div class="item">
+        <div class="item-title">▶ 점심 (권영철콩짬뽕)</div>
+        <a href="https://naver.me/xrSQMpAc" target="_blank">
+          https://naver.me/xrSQMpAc
+        </a>
+      </div>
+
+      <div class="item">
+        <div class="item-title">▶ 카페 (식당 근처)</div>
+        <span style="font-size:14px; color:#555;">
+          도보 이동 가능한 카페 탐색
+        </span>
+      </div>
+
+      <div class="note">
+        식당 및 근처 노면에 주차
+      </div>
+    </section>
+
+    <footer>
+      싱벙한거니
+    </footer>
+  </div>
+</body>
+</html>
